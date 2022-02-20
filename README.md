@@ -22,7 +22,7 @@ body, html {
   background-position: center;
   background-size: cover;
   background-image: url("https://lh3.googleusercontent.com/nlVKfs_mLW0l2aYfxcbOvKJyu8LjUKCGsqoH50OguBEMvrCKcHOV5jAkMdHAdgRaRfN8ug=s170");
-  min-height: 70%;
+  min-height: 100%;
 }
 
 .w3-bar .w3-button {
@@ -36,19 +36,29 @@ body, html {
   <div class="w3-bar w3-white w3-card" id="myNavbar">
     <a href="#home" class="w3-bar-item w3-button w3-wide"><img src="https://lh3.googleusercontent.com/g7Gi4QRerEJFWVowKRqjVOAlozN9OgH3VcjyrU0n7tR9IHdNLyLgBtafu1nC_WOcoi2ypQ=s170" /></a>
     <!-- Right-sided navbar links -->
-    <div class="w3-right w3-hide-small">
+    <div class="w3-center w3-hide-small">
       <button href="#about" class="btn btn-primary dropdown-toggle w3-bar-item w3-button">
       Courses
-    <span class="caret"></span></button>
+    <span class="caret"></span>&nbsp;&nbsp;&nbsp;</button>
     <ul class="dropdown-menu">
       <li><a href="#">HTML</a></li>
       <li><a href="#">CSS</a></li>
       <li><a href="#">JavaScript</a></li>
-    </ul>
-      <a href="#team" class="w3-bar-item w3-button"><i class="fa fa-user"></i> TEAM</a>
-      <a href="#work" class="w3-bar-item w3-button"><i class="fa fa-th"></i> WORK</a>
-      <a href="#pricing" class="w3-bar-item w3-button"><i class="fa fa-usd"></i> PRICING</a>
-      <a href="#contact" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> CONTACT</a>
+    </ul>&nbsp;&nbsp;
+      <a href="#team" class="w3-bar-item w3-button"> webinars&nbsp;&nbsp;&nbsp;</a>
+      <a href="#work" class="w3-bar-item w3-button"> Blog&nbsp;&nbsp;&nbsp;</a>
+      <a href="#pricing" class="w3-bar-item w3-button"><input type="text" style="image:url(https://media.istockphoto.com/videos/magnifying-glass-search-icon-in-and-out-animation-loop-blue-video-id954018152?s=256x256) width:10px;
+  background-position: 20px 12px;
+  background-repeat: no-repeat;
+  width: 90%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;" onkeyup="myFunction()" placeholder="Search for names.." title="Type in a name"></a>
+    <button href="#about" class=" w3-right btn btn-primary dropdown-toggle w3-bar-item w3-button">
+      Login</button>&nbsp;&nbsp;<span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
+      <button href="#about" class=" w3-right btn btn-primary dropdown-toggle w3-bar-item w3-button">
+      Get Started</button>&nbsp;&nbsp;&nbsp;
     </div>
     <!-- Hide right-floated links on small screens and replace them with a menu icon -->
 
